@@ -20,7 +20,7 @@
    	    
    	    <label for="price" class="col-sm-1 control-label">Price</label>
 	    <div class="col-sm-2">
-      	    <input type="number" class="form-control" name="price" step = 5 value = 280 >
+      	    <input type="number" class="form-control" name="price" step = 10 value = 300 >
    	    </div>
 
     </div>

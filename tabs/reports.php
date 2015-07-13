@@ -56,7 +56,6 @@ $date1 = Date('Y-m-d', strtotime("-2 month")) ;
 	
 	
     
-</div>
 </form>
 
 	

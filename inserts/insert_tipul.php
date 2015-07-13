@@ -32,10 +32,10 @@ $id_value = $row[0];
 
 //$result = mysql_query("SELECT * FROM {$table} WHERE name = '{$name}'");
 //$result = mysql_query("SELECT * FROM {$table} WHERE name = '{$name}'");
+header('Location: http://54.69.133.4/home.php?insert=tipul&value='.$_POST["name"]);
 ?>
 
-	
-hi you!
+
 
 </body>
 </html>

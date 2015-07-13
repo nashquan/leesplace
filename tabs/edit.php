@@ -1,6 +1,6 @@
 <div class="tab-pane" id="edit">  
 
 <?php
-phpinfo()
+echo "edit" ;
 ?>
 </div>  

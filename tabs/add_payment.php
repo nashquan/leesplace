@@ -1,16 +1,36 @@
-<?php $kabala = 168 ; ?>
+<?php 
+$db_host = 'localhost';
+$db_user = 'root';
+$db_pwd = 'leesela';
+
+$database = 'heb';
+$table = 'payments';
+
+$connection = mysqli_connect($db_host, $db_user, $db_pwd, $database);
+if (!$connection) die("Can't connect to database");
+
+$kabala_result = mysqli_query($connection, "SELECT max(kabala_num) FROM payments;");
+$row = mysqli_fetch_row($kabala_result);
+$kabala = $row[0] + 1;
+
+?>
+
+
 
 <div class="tab-pane" id="add_payment">  
-
+<script>window.onload=getPatients;</script>
+<script src="js/main.js"></script>
+	
 <form class="form-horizontal" role="form" method="post" action="inserts/insert_payment.php">
 
    <div class="form-group">
         
         <label for="name" class="col-sm-2 control-label">Name</label>
-        <div class="col-sm-2">
-            <input type="text" class="form-control" name="name" placeholder="First & Last Name" value="">
-        </div>
-
+       		<div class="col-sm-2">
+			<input type="text" class="form-control patlist"  list="patientsList" id="new_patlist" name="name" placeholder="First & Last Name" autofocus autocomplete="on" maxlength="30">
+ 			<datalist id="patientsList"></datalist>
+		</div>
+ 
         <label for="date1" class="col-sm-1 control-label">Date</label>
 	    <div class="col-sm-2">
       	    <input type="date" class="form-control" name="date1" value = "<?php echo date('Y-m-d'); ?>" >
@@ -18,7 +38,7 @@
    	    
    	    <label for="amount" class="col-sm-1 control-label">Price</label>
 	    <div class="col-sm-2">
-      	    <input type="number" class="form-control" name="amount" step = 5 value = 600 >
+      	    <input type="number" class="form-control" name="amount" step = 5 value = 300 >
    	    </div>
     </div>
     

@@ -32,11 +32,19 @@ $result = mysqli_query($connection,
 
 //$result = mysql_query("SELECT * FROM {$table} WHERE name = '{$name}'");
 //$result = mysql_query("SELECT * FROM {$table} WHERE name = '{$name}'");
+
+$result1 = mysqli_query($connection, "SELECT * FROM all_patients;" );
+if ($result1->num_rows > 0) {
+    while ($row = mysqli_fetch_assoc($result1)) {
+        $var1[]=$row;
+    }
+}
+$fp1 = fopen('/var/www/html/tmp/patients.json', 'w');
+fwrite($fp1, json_encode($var1, JSON_UNESCAPED_UNICODE));
+fclose($fp1);
+
+header('Location: http://54.69.133.4/home.php?insert=add_pat&value='.$_POST["name"]);
 ?>
-
-Welcome <?php echo $_POST["name"]; ?><br>
-<?php $_POST = array() ?>
-
 
 </body>
 </html>
