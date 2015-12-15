@@ -79,6 +79,7 @@
     <li><a href="#add_payment" data-toggle="tab">Payment</a></li>
     <li><a href="#edit" data-toggle="tab">Edit</a></li>
     <li><a href="#reports" data-toggle="tab">View Summaries</a></li>
+	<li><a href="#get_csv" data-toggle="tab">Download CSV</a></li>
 	<li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Summaries <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -90,6 +91,7 @@
                 <li><a href="#balance" data-toggle="tab" >Balance</a></li>
             </ul>
 	</li>
+	
 
 </ul>
 </div>
@@ -103,6 +105,7 @@
 <?php include 'tabs/add_payment.php'?>  
 <?php include 'tabs/reports.php'?>  
 <?php include 'tabs/edit.php'?>  
+<?php include 'tabs/csv.php'?>  
 	
 </div>
 
