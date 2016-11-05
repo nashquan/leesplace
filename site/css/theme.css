@@ -10,7 +10,7 @@ html {
 body {
 	background-color: white;
 	color: #777777;
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Alef Hebrew", "Open Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 22px;
 	margin: 0;
@@ -146,7 +146,7 @@ body {
 }
 
 #header nav ul.nav-main li a {
-	font-size: 12px;
+	font-size: 20px;
 	font-style: normal;
 	line-height: 20px;
 	margin-right: 3px;
@@ -1689,7 +1689,7 @@ aside ul.nav-list > li > a {
 	color: #BAB9BE;
 	font-size: 46px;
 	line-height: 46px;
-	font-family: "Shadows Into Light", cursive;
+	font-family: "Alef Hebrew","Shadows Into Light", cursive;
 	text-transform: uppercase;
 }
 
@@ -1852,7 +1852,7 @@ aside ul.nav-list > li > a {
 }
 
 .home-intro p em {
-	font-family: "Shadows Into Light", cursive;
+	font-family: "Alef Hebrew","Shadows Into Light", cursive;
 	font-size: 1.6em;
 }
 
@@ -1931,7 +1931,7 @@ aside ul.nav-list > li > a {
 
 .home-concept strong {
 	display: block;
-	font-family: "Shadows Into Light", cursive;
+	font-family: "Alef Hebrew","Shadows Into Light", cursive;
 	font-size: 2.1em;
 	font-weight: normal;
 	position: relative;
@@ -2139,7 +2139,7 @@ aside ul.nav-list > li > a {
 #footer .footer-ribbon span {
 	color: #FFF;
 	font-size: 1.6em;
-	font-family: "Shadows Into Light", cursive;
+	font-family: "Alef Hebrew","Shadows Into Light", cursive;
 }
 
 #footer .newsletter form {

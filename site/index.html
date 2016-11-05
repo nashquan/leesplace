@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<title>אוּמא</title>
 		<meta name="keywords" content="HTML5" />
-		<meta name="description" content="אומא - קליניקה וסטודיו לבריאות האישה">
+		<meta name="description" content="אוּמא - קליניקה וסטודיו לבריאות האישה">
 		<meta name="author" content="לי סלע">
 
 		<!-- Mobile Metas -->
@@ -59,7 +59,7 @@
 				<div class="container">
 					<div class="logo">
 						<a href="index.html">
-							<img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" src="img/logo.png">
+							<img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" src="img/uma-logo.jpg">
 						</a>
 					</div>
 					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
@@ -73,6 +73,9 @@
 						</ul>
 						<nav class="nav-main">
 							<ul class="nav nav-pills nav-main" id="mainMenu">
+								<li>
+									<a data-hash href="#contact">צור קשר</a>
+								</li>
 								<li class="dropdown active">
 									<a data-hash class="dropdown-toggle" href="#workshops">
 										סדנאות
@@ -84,13 +87,16 @@
 									</ul>
 								</li>
 								<li>
-									<a data-hash href="#projects">הכנה ללידה</a>
+									<a data-hash href="#preparation">הכנה ללידה</a>
 								</li>
 								<li>
-									<a data-hash href="#features">פילאטיס נשי</a>
+									<a data-hash href="#women-pilates">פילאטיס נשי</a>
 								</li>
 								<li>
-									<a data-hash href="#team">פיזיותרפיה לרצפת האגן</a>
+									<a data-hash href="#pelvic-floor-physicaltherapy">פיזיותרפיה לרצפת האגן</a>
+								</li>
+								<li>
+									<a data-hash href="#about">אודות</a>
 								</li>
 							</ul>
 						</nav>
@@ -100,7 +106,7 @@
 
 			<div role="main" class="main" id="home">
 
-				<div class="slider-container slider-container-fullscreen">
+				<!-- <div class="slider-container slider-container-fullscreen">
 					<div class="slider" id="revolutionSliderFullScreen" data-plugin-revolution-slider data-plugin-options='{"fullScreen": "on"}'>
 						<ul>
 							<li data-transition="fade" data-slotamount="10" data-masterspeed="300">
@@ -223,10 +229,10 @@
 							</li>
 						</ul>
 					</div>
-				</div>
+				</div> -->
 				<section class="highlight top">
 					<div class="container">
-						<div class="row" id="projects">
+						<!-- <div class="row" id="projects">
 							<div class="col-md-12">
 								<h2>Latest <strong>Projects</strong></h2>
 
@@ -553,29 +559,128 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</section>
 
-				<div class="container">
 
+				<div class= "container" id="about">
+					<div class="row">
+						<div class="col-md-4">
+
+							<div class="owl-carousel" data-plugin-options='{"items": 1}'>
+								<div>
+									<div class="thumbnail">
+										<img alt="" height="300" class="img-responsive" src="img/team/lee-2.jpg">
+									</div>
+								</div>
+								<div>
+									<div class="thumbnail">
+										<img alt="" height="300" class="img-responsive" src="img/team/lee-4.jpg">
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-md-8">
+
+							<h2 class="shorter"><strong>לי</strong> סלע</h2>
+							<h4>פיזיותרפיסטית</h4>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus.</p>
+
+							<ul class="list icons list-unstyled">
+								<li><i class="fa fa-check"></i> Fusce sit amet orci quis arcu vestibulum vestibulum sed ut felis.</li>
+								<li><i class="fa fa-check"></i> Phasellus in risus quis lectus iaculis vulputate id quis nisl.</li>
+								<li><i class="fa fa-check"></i> Iaculis vulputate id quis nisl.</li>
+							</ul>
+
+						</div>
+					</div>
+
+					<div class="row">
+						<h2 data-appear-animation="fadeInLeft"><strong>הצוות</strong></h2>
+						<div class="row">
+							<ul class="team-list">
+								<li class="col-md-3 col-sm-6 col-xs-12">
+									<div class="team-item thumbnail">
+										<a href="#" class="thumb-info team">
+											<img alt="" height="270" src="img/team/team-4.jpg">
+											<span class="thumb-info-title">
+												<span class="thumb-info-inner">John Doe</span>
+												<span class="thumb-info-type">CEO</span>
+											</span>
+										</a>
+										<span class="thumb-info-caption">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan.</p>
+											<span class="thumb-info-social-icons">
+												<a data-tooltip data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+											</span>
+										</span>
+									</div>
+								</li>
+								<li class="col-md-3 col-sm-6 col-xs-12">
+									<div class="team-item thumbnail">
+										<a href="#" class="thumb-info team">
+											<img alt="" height="270" src="img/team/team-2.jpg">
+											<span class="thumb-info-title">
+												<span class="thumb-info-inner">Jessica Doe</span>
+												<span class="thumb-info-type">Marketing</span>
+											</span>
+										</a>
+										<span class="thumb-info-caption">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan.</p>
+											<span class="thumb-info-social-icons">
+												<a data-tooltip data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+											</span>
+										</span>
+									</div>
+								</li>
+								<li class="col-md-3 col-sm-6 col-xs-12">
+									<div class="team-item thumbnail">
+										<a href="#" class="thumb-info team">
+											<img alt="" height="270" src="img/team/team-3.jpg">
+											<span class="thumb-info-title">
+												<span class="thumb-info-inner">Rick Edward Doe</span>
+												<span class="thumb-info-type">Developer</span>
+											</span>
+										</a>
+										<span class="thumb-info-caption">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan.</p>
+											<span class="thumb-info-social-icons">
+												<a data-tooltip data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+											</span>
+										</span>
+									</div>
+								</li>
+								<li class="col-md-3 col-sm-6 col-xs-12">
+									<div class="team-item thumbnail">
+										<a href="#" class="thumb-info team">
+											<img alt="" height="270" src="img/team/team-4.jpg">
+											<span class="thumb-info-title">
+												<span class="thumb-info-inner">Melinda Wolosky</span>
+												<span class="thumb-info-type">Design</span>
+											</span>
+										</a>
+										<span class="thumb-info-caption">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan.</p>
+											<span class="thumb-info-social-icons">
+												<a data-tooltip data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+											</span>
+										</span>
+									</div>
+								</li>
+							</ul>
+					</div>
+
+
+
+				</div>
+
+				<div class="container">
 					<div class="row center">
 						<div class="col-md-12">
-							<h1 class="short word-rotator-title">
-								Porto is
-								<strong class="inverted" data-appear-animation="bounceIn">
-									<span class="word-rotate" data-plugin-options='{"delay": 2000}'>
-										<span class="word-rotate-items">
-											<span>incredibly</span>
-											<span>especially</span>
-											<span>extremely</span>
-										</span>
-									</span>
-								</strong>
-								 beautiful and fully responsive.</h1>
-							<p class="featured lead">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo. vamus suscipit molestie vestibulum.
-							</p>
 						</div>
 					</div>
 
@@ -732,89 +837,6 @@
 					</div>
 				</section>
 
-				<div class="container">
-					<div class="row" id="team">
-						<div class="col-md-12">
-							<h2 data-appear-animation="fadeInLeft">Meet the <strong>Team</strong></h2>
-
-							<div class="row">
-
-								<ul class="team-list">
-									<li class="col-md-3 col-sm-6 col-xs-12">
-										<div class="team-item thumbnail">
-											<a href="#" class="thumb-info team">
-												<img alt="" height="270" src="img/team/team-1.jpg">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">John Doe</span>
-													<span class="thumb-info-type">CEO</span>
-												</span>
-											</a>
-											<span class="thumb-info-caption">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan.</p>
-												<span class="thumb-info-social-icons">
-													<a data-tooltip data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-												</span>
-											</span>
-										</div>
-									</li>
-									<li class="col-md-3 col-sm-6 col-xs-12">
-										<div class="team-item thumbnail">
-											<a href="#" class="thumb-info team">
-												<img alt="" height="270" src="img/team/team-2.jpg">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Jessica Doe</span>
-													<span class="thumb-info-type">Marketing</span>
-												</span>
-											</a>
-											<span class="thumb-info-caption">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan.</p>
-												<span class="thumb-info-social-icons">
-													<a data-tooltip data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-												</span>
-											</span>
-										</div>
-									</li>
-									<li class="col-md-3 col-sm-6 col-xs-12">
-										<div class="team-item thumbnail">
-											<a href="#" class="thumb-info team">
-												<img alt="" height="270" src="img/team/team-3.jpg">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Rick Edward Doe</span>
-													<span class="thumb-info-type">Developer</span>
-												</span>
-											</a>
-											<span class="thumb-info-caption">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan.</p>
-												<span class="thumb-info-social-icons">
-													<a data-tooltip data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-												</span>
-											</span>
-										</div>
-									</li>
-									<li class="col-md-3 col-sm-6 col-xs-12">
-										<div class="team-item thumbnail">
-											<a href="#" class="thumb-info team">
-												<img alt="" height="270" src="img/team/team-4.jpg">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Melinda Wolosky</span>
-													<span class="thumb-info-type">Design</span>
-												</span>
-											</a>
-											<span class="thumb-info-caption">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan.</p>
-												<span class="thumb-info-social-icons">
-													<a data-tooltip data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-												</span>
-											</span>
-										</div>
-									</li>
-								</ul>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
 				<section class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/parallax-transparent.jpg);">
 					<div class="container">
 						<div class="row center">
@@ -829,11 +851,9 @@
 				<!-- Google Maps -->
 				<div id="googlemaps" class="google-map push-top"></div>
 
-				<div class="container">
-
-					<div class="row" id="contact">
+				<div class="container" id="contact">
+					<div class="row">
 						<div class="col-md-6">
-
 							<div class="alert alert-success hidden" id="contactSuccess">
 								<strong>Success!</strong> Your message has been sent to us.
 							</div>
@@ -842,7 +862,7 @@
 								<strong>Error!</strong> There was an error sending your message.
 							</div>
 
-							<h2 class="short"><strong>Contact</strong> Us</h2>
+							<h2><strong>צור</strong> קשר</h2>
 							<form id="contactForm" action="php/contact-form.php" method="POST">
 								<div class="row">
 									<div class="form-group">
@@ -880,28 +900,16 @@
 							</form>
 						</div>
 						<div class="col-md-6">
-
-							<h4 class="push-top">Get in <strong>touch</strong></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus.</p>
-
-							<hr />
-
-							<h4>The <strong>Office</strong></h4>
+							<h2><strong>אוּמא</strong> </h2>
 							<ul class="list-unstyled">
-								<li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</li>
-								<li><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-7890</li>
-								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
+								<li><i class="fa fa-map-marker"></i> <strong>כתובת:</strong> אהוד 14, רמת השרון</li>
+								<li><i class="fa fa-phone"></i> <strong>טלפון:</strong> 054-5525929</li>
+								<li><i class="fa fa-envelope"></i> <strong>אימייל:</strong> <a href="mailto:uma@leesela.co.il">uma@leesela.co.il</a></li>
+								<li><a href="https://www.facebook.com/lee.sela.physiotherapy/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+
 							</ul>
 
 							<hr />
-
-							<h4>Business <strong>Hours</strong></h4>
-							<ul class="list-unstyled">
-								<li><i class="fa fa-time"></i> Monday - Friday 9am to 5pm</li>
-								<li><i class="fa fa-time"></i> Saturday - 9am to 2pm</li>
-								<li><i class="fa fa-time"></i> Sunday - Closed</li>
-							</ul>
-
 						</div>
 
 					</div>
