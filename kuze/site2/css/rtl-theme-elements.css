@@ -5517,7 +5517,7 @@ section.timeline .timeline-box .owl-carousel {
 
 .testimonial blockquote p {
 	color: #FFF;
-	font-family: Georgia, serif;
+	font-family: "Alef Hebrew", Georgia, serif;
 	font-style: italic;
 	font-size: 1.2em;
 	line-height: 1.3;
@@ -5630,7 +5630,7 @@ section.timeline .timeline-box .owl-carousel {
 
 .testimonial.testimonial-style-3 blockquote p {
 	color: #777;
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Alef Hebrew", "Open Sans", Arial, sans-serif;
 	font-size: 1em;
 	font-style: normal;
 }
@@ -5675,7 +5675,7 @@ section.timeline .timeline-box .owl-carousel {
 
 .testimonial.testimonial-style-4 blockquote p {
 	color: #777;
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Alef Hebrew", "Open Sans", Arial, sans-serif;
 	font-size: 1em;
 	font-style: normal;
 }
@@ -5711,7 +5711,7 @@ section.timeline .timeline-box .owl-carousel {
 
 .testimonial.testimonial-style-5 blockquote p {
 	color: #777;
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Alef Hebrew", "Open Sans", Arial, sans-serif;
 	font-size: 1.2em;
 	font-style: normal;
 }
@@ -5827,7 +5827,7 @@ section.timeline .timeline-box .owl-carousel {
 
 /* Alternarive Font */
 .testimonial.testimonial-alternarive-font blockquote p {
-	font-family: Georgia, serif;
+	font-family: "Alef Hebrew", Georgia, serif;
 	font-style: italic;
 	font-size: 1.2em;
 }
