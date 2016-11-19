@@ -5533,7 +5533,7 @@ section.timeline .timeline-box .owl-carousel {
 }
 
 .testimonial .testimonial-author {
-	margin: 8px 0 0 0;
+	margin: 2px 0 0 0;
 }
 
 .testimonial .testimonial-author::after {
@@ -5569,6 +5569,10 @@ section.timeline .timeline-box .owl-carousel {
 	color: #999;
 	margin: 0 25px 0 0;
 	text-align: right;
+  line-height: 22px;
+}
+.testimonial .testimonial-author p strong {
+	padding-top: 0;
 }
 
 /* Style 2 */

@@ -147,6 +147,9 @@ li {
 	display: table-cell;
 	vertical-align: middle;
 }
+#header .header-column .menu{
+	padding-top: 30px;
+}
 
 #header .header-column .row {
 	margin: 0;
@@ -1396,6 +1399,10 @@ html:not(.sticky-header-active) #header.header-transparent-sticky-deactive .head
 
 html.side-header #header {
 	min-height: 0 !important;
+}
+
+.container-spaced {
+	padding-top: 35px;
 }
 
 @media (min-width: 992px) {
